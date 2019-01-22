@@ -1,4 +1,4 @@
-class AddColiumnToCharacters < ActiveRecord::Migration[5.1]
+class AddColiumnToCharacters < ActiveRecord::Migration[4.2]
   def change
     add_column :characters, :actor_id, :string
   end
